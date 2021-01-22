@@ -1,0 +1,126 @@
+/*!
+ * Simple Font Awesome Icon Picker 2.0
+ * http://howlthemes.com
+ *
+ * Originally written by (c) 2016-17 Aumkar Thakur
+ * Special Thanks To Deepak Kamat
+ * Licensed under the MIT License
+ * https://github.com/aumkarthakur/simple-fontawesome-iconpicker/blob/master/LICENSE
+ *
+ */
+ .howl-iconpicker-outer {
+    background: rgba(0, 0, 0, 0.78);
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+}
+.howl-iconpicker-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.howl-iconpicker-close {
+    background: #e83131;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 242px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.howl-iconpicker-close:hover{
+  background:#e62323;
+}
+.howl-iconpicker {
+    border: 1px solid #ccc;
+    background: #efefef;
+    width: 450px;
+    margin:0 auto;
+    //display: none;
+    position:relative;
+}
+.howl-iconpicker:hover,
+.howl-iconpicker:active,
+.howl-iconpicker:focus {
+  display: block !important;
+}
+.howl-iconpicker .geticonval .fa {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+.howl-iconpicker .geticonval {
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 33.3px;
+    height: 28px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    margin:0; 
+}
+.howl-iconpicker .geticonval:hover {
+    background: #efefef;
+    cursor: pointer;
+}
+.howl-iconpicker .geticonval:active {
+    background: #ccc;
+}
+.srchicons {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+}
+.iconsholder {
+    height: 350px;
+    overflow-y: scroll;
+}
+.iconsholder::-webkit-scrollbar
+{
+        width:6px;
+        background:#ccc;
+}
+.iconsholder::-webkit-scrollbar:horizontal
+{
+        height:5px;
+}
+.iconsholder::-webkit-scrollbar-button
+{
+        width:6px;
+        height:5px;
+        background:#666;
+}
+.iconsholder::-webkit-scrollbar-piece
+{
+        background:#ccc;
+}
+.iconsholder::-webkit-scrollbar-piece:start
+{
+        background:#ccc;
+}
+.iconsholder::-webkit-scrollbar-thumb
+{
+        background:#333;
+}
+.iconsholder::-webkit-scrollbar-corner
+{
+        background:#333;
+}
+
+.selectedicon{
+  background:#f55e4f !important;
+  border-color: #f55e4f !important;
+  color:#fff;
+}

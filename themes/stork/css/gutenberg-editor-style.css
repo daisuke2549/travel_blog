@@ -1,0 +1,106 @@
+/*
+Theme Name: Stork
+Description: Used to style the Gutenberg editor.
+*/
+
+.wp-block-heading h1,
+.wp-block-heading h2,
+.wp-block-heading h3,
+.wp-block-heading h4,
+.wp-block-heading h5,
+.wp-block-heading h6 {
+	color: #1f1f1f;
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+.wp-block-heading h1 { font-size: 34px; letter-spacing: -1px; }
+.wp-block-heading h2 { font-size: 28px; letter-spacing: -1px; }
+.wp-block-heading h3 { font-size: 22px; }
+.wp-block-heading h4 { font-size: 18px; }
+.wp-block-heading h5,
+.wp-block-heading h6 { font-size: 16px; }
+
+.editor-post-title__block .editor-post-title__input {
+	color: #1f1f1f;
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 1.2;
+}
+
+.editor-block-list__layout .editor-block-list__block,
+.editor-block-list__block p {
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border-left: 5px solid #1f1f1f;
+	color: #6e6e6e;
+	font-style: italic;
+	line-height: 1.5;
+	padding-left: 24px;
+}
+
+.wp-block-pullquote {
+	border-top: 5px solid #1f1f1f;
+	border-bottom: 4px solid #1f1f1f;
+	color: #6e6e6e;
+	font-style: italic;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 24px 0;
+}
+
+.wp-block-pullquote__citation,
+.wp-block-pullquote cite,
+.wp-block-pullquote footer {
+	color: #6e6e6e;
+	text-transform: none;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.wp-block-image figcaption {
+	color: #6e6e6e;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.wp-block-file {
+	border: 1px solid #d9d9d9;
+	padding: 18px;
+}
+
+.wp-block-button .wp-block-button__link,
+.wp-block-file .wp-block-file__button {
+	border-radius: 0;
+}
+
+.wp-block-separator {
+	border-width: 1px;
+}
+
+.wp-block-table {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.wp-block-table th,
+.wp-block-table td {
+	border: 0;
+	padding: 8px;
+}
+
+.wp-block-table th {
+	color: #1f1f1f;
+	font-weight: bold;
+}
+
+.wp-block-table tr {
+	border-top: 1px solid #d9d9d9;
+}
+
+.wp-block-preformatted pre {
+	background: #f6f6f6;
+	padding: 1em;
+}
